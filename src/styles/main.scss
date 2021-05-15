@@ -1,5 +1,14 @@
 // Base
-@import "./base/_reset";
+@import './base/reset';
+@import './lib/variables';
+@import "./base/global";
+@import './base/fonts';
+@import './lib/colors';
+
+// views
+
+@import "./views/pantallaInicioCliente";
+@import "./views/registro";
 
 // components
 
@@ -7,9 +16,5 @@
 @import "./components/card";
 @import "./components/button";
 @import "./components/navbar";
-
-// views
-
-@import './views/pantallaInicioCliente';
-@import './views/registro';
+@import "./components/containerCards"
 
