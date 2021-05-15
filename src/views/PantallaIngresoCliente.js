@@ -1,71 +1,19 @@
-import { Card } from "../components/Card.js";
+import { ContainerCards } from "../components/ContainerCards.js";
 import { Header } from "../components/Header.js";
 import { Navbar } from "../components/Navbar.js";
 
-const iconcitoLink =
-  "https://res.cloudinary.com/initial-cloud/image/upload/v1620870788/carrito_zs5b0x.png";
-
-const productos = [
-  {
-    id: 1,
-    img: "https://res.cloudinary.com/initial-cloud/image/upload/v1620870405/shirt_kbryht.png",
-    nombre: "polera",
-    talla: "L",
-    estado: "disponible",
-    color: "gris",
-    precio: "9990",
-    tipo: "Hombre",
-    categoria: "hombres",
-  },
-  {
-    id: 2,
-    img: "https://res.cloudinary.com/initial-cloud/image/upload/v1620870405/shirt_kbryht.png",
-    nombre: "pantalon",
-    talla: "S",
-    estado: "disponible",
-    color: "negro",
-    precio: "5990",
-    tipo: "Hombre",
-    categoria: "hombres",
-  },
-  {
-    id: 3,
-    img: "https://res.cloudinary.com/initial-cloud/image/upload/v1620870405/shirt_kbryht.png",
-    nombre: "polera",
-    talla: "L",
-    estado: "disponible",
-    color: "gris",
-    precio: "9990",
-    tipo: "Hombre",
-    categoria: "hombres",
-  },
-  {
-    id: 4,
-    img: "https://res.cloudinary.com/initial-cloud/image/upload/v1620870405/shirt_kbryht.png",
-    nombre: "polera",
-    talla: "L",
-    estado: "disponible",
-    color: "gris",
-    precio: "9990",
-    tipo: "Hombre",
-    categoria: "hombres",
-  },
-];
+// let titulo = 'titulo1'
 
 export const PantallaIngresoCliente = () => {
-  return (
-    <div>
-      <Header />
-      <Navbar />
-      {productos.map((producto) => {
-        return (
-          <Card
-            key={producto.id}
-            imagen={producto.img}
-            iconito={iconcitoLink}
-          />
-        );
-      })}
-    </div>
-  );
+	return (
+		<div>
+			<Header />
+			<Navbar />
+			<div className="container-section-products flex-d-c">
+				<ContainerCards title="Polera" />
+				<ContainerCards title="Pantalones" />
+				<ContainerCards title="Buzos" />
+			</div>
+		</div>
+	);
 };
