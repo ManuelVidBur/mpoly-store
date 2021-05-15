@@ -8,7 +8,6 @@ export const Navbar = () => {
           <a href="/">
             <li>Ofertas</li>
           </a>
-          {/* Selecciona un tipo de producto: */}
           <a href="./mujer.html">
             <li>Mujer</li>
           </a>
