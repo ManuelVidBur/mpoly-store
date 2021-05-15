@@ -2,7 +2,7 @@
 export const Button = (props) => {
 
   return (
-    <a href="/" class="botoncito">
+    <a href="/" className="botoncito">
       Agregar
       {
         props.iconitoButton && 
