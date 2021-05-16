@@ -213,19 +213,19 @@ const productos = [
     tipo: "Hombre",
     categoria: "hombres"
   },
-  
+
 
 ]
 
 export const DetalleTipo = ({titulo="TITULO"}) => {
   return (
     <div>      
-        <section className="container-titulo-ofertas container-flex-center">
+        <section className="container-titulo container-flex-center">
           <h2 className="title" > {titulo} </h2>
         </section>
       
-      <section className="ofertas-imagenes">
-        <div className="ofertas-ropa-ordenada" >
+      <section className="imagenes">
+        <div className="ropa-ordenada" >
           {
             productos.map((producto) => {
               return <Card key={producto.id} imagen={producto.img} iconito={iconcitoLink}/>
@@ -234,7 +234,7 @@ export const DetalleTipo = ({titulo="TITULO"}) => {
         </div>
       </section>
 
-      <section className="ofertas-soporte">
+      <section className="soporte">
         <Soporte />
       </section>
 
