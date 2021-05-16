@@ -1,6 +1,7 @@
 import { Card } from "../components/Card.js"
 import { Header } from "../components/Header.js"
 
+
 const iconcitoLink = 'https://res.cloudinary.com/initial-cloud/image/upload/v1620870788/carrito_zs5b0x.png'
 
 const productos = [

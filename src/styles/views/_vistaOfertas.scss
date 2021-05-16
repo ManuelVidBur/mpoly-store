@@ -1,0 +1,30 @@
+body{
+  background-color: #E9ECF5;
+}
+
+.container-titulo-ofertas{
+}
+.ofertas-categoria {
+  border: 0px solid orangered;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ofertas-imagenes {
+  border: 5px solid orangered;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ofertas-ropa-ordenada{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
