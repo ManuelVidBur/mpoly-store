@@ -6,11 +6,11 @@ body{
   font-size: $font-size-xl;
   font-family: Arial, Helvetica, sans-serif;
 }
-.container-titulo-ofertas{
+.container-titulo-tipo{
   height: 15vh;
 }
 
-.imagenes {
+.tipo-imagenes {
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -18,7 +18,7 @@ body{
   flex-direction: column;
 }
 
-.ropa-ordenada{
+.tipo-ropa-ordenada{
   height: 90%;
   width: 90%;
   display: flex;

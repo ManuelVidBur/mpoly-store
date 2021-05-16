@@ -220,12 +220,12 @@ const productos = [
 export const DetalleTipo = ({titulo="TITULO"}) => {
   return (
     <div>      
-        <section className="container-titulo container-flex-center">
+        <section className="container-titulo-tipo container-flex-center">
           <h2 className="title" > {titulo} </h2>
         </section>
       
-      <section className="imagenes">
-        <div className="ropa-ordenada" >
+      <section className="tipo-imagenes">
+        <div className="tipo-ropa-ordenada" >
           {
             productos.map((producto) => {
               return <Card key={producto.id} imagen={producto.img} iconito={iconcitoLink}/>
