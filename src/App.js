@@ -12,5 +12,4 @@ export const App = () => {
       {/* <Tipo /> */}
       <Carrito />    </div>
   );
-}
-
+};
