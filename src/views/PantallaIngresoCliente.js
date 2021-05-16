@@ -2,8 +2,6 @@ import { ContainerCards } from "../components/ContainerCards.js";
 import { Header } from "../components/Header.js";
 import { Navbar } from "../components/Navbar.js";
 
-// let titulo = 'titulo1'
-
 export const PantallaIngresoCliente = () => {
 	return (
 		<div>

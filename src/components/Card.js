@@ -6,9 +6,9 @@ export const Card = ({
 }) => {
   return (
     <div className="card">
-      <img className="br" src={imagen} alt="producto" />
+      <img className="br" src={ imagen } alt="producto" />
       <div className="footer-card">
-        <Button iconitoButton={iconito} />
+        <Button iconitoButton={ iconito } />
       </div>
     </div>
   );

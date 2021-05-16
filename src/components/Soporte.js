@@ -1,15 +1,15 @@
+import HeadsetMicIcon from '@material-ui/icons/HeadsetMic';
 
-export const Soporte = (
-  {
-    configClass = 'img-soporte',
-    img = 'https://res.cloudinary.com/repro/image/upload/v1621114855/Soporte_lcyeio.svg',
-    alt = "imagen",
-    width = '40',
-    height = '40'
-  }
-) => {
-
+export const Soporte = () => {
   return (
-    <img className={configClass} src={img} alt={alt} width={width} height={height} />
+    <section className="soporte">
+      <div className="soporte1" >
+        <HeadsetMicIcon style={{ fontSize: 40 }}/>
+        <div className="soporte-completo">
+          <h1 className="soporte-numero">+56973560302</h1>
+          <h1 className="soporte-correo">Soporte@mpolystore.cl</h1>
+        </div>
+      </div>
+    </section>
   )
 }
