@@ -2,9 +2,6 @@ body{
   margin: 0;
   padding: 0;
   background: #E9ECF5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .section1 {
@@ -48,14 +45,19 @@ body{
   border: 1px solid #000000;
   border-radius: 8px;
   background: #CCD6EB;
+  height: 40px;
 }
 
 .crear-cuenta{
   border: 1px solid #000000;
   border-radius: 21px;
   background: #A3C3D9;
-  margin: 40px;
-  width: 12vh;
+  height: 35px;
+  width: 100px;
+  margin: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section3 {
@@ -64,4 +66,27 @@ body{
   justify-content: flex-end;
   align-items: center;
 }
+
+.soporte {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.soporte-text1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.soporte-text2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+// .soporte.completo {
+//   margin: ;
+// }
 
