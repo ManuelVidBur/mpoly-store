@@ -1,14 +1,14 @@
 // import { PantallaIngresoCliente } from './views/PantallaIngresoCliente.js'
+// import { Registro } from './views/Registro.js';
 import './styles/main.scss'
-import { Ofertas } from './views/Ofertas'
-import { Registro } from './views/Registro.js';
+import { Tipo } from './views/Tipo'
 
 export const App = () => {
   return (
     <div>
       {/* <PantallaIngresoCliente /> */}
-      <Ofertas />
-      <Registro />
+      {/* <Registro /> */}
+      <Tipo />
     </div>
   );
 }
