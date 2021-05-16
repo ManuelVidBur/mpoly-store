@@ -1,5 +1,5 @@
 import { Avatar } from "../components/Avatar"
-import { Soporte } from "../components/Soporte"
+import HeadsetMicIcon from '@material-ui/icons/HeadsetMic';
 
 export const Registro = () => {
   return (
@@ -17,7 +17,7 @@ export const Registro = () => {
               <input className="campos-botones" type="text" placeholder="Apellido Materno" />
             </div>
             <div>
-              <input className="campos-botones" type="text" placeholder="RUT" />
+              <input className="campos-botones" type="text" placeholder="RUT" maxLength="9"/>
               <input className="campos-botones" type="text" placeholder="Número telefónico" />
               <input className="campos-botones" type="text" placeholder="Región" />
             </div>
@@ -49,7 +49,13 @@ export const Registro = () => {
       </section>
 
       <section className="section3">
-        <Soporte width="50" height="50" />
+        <div className="soporte" >
+          <HeadsetMicIcon />
+          <div className="soporte-completo ml-2">
+            <h1 className="soporte-text1">+56973560302</h1>
+            <h1 className="soporte-text2">Soporte@mpolystore.cl</h1>
+          </div>
+        </div>
       </section>
     </>
   )
