@@ -1,9 +1,9 @@
-import { HeaderButtons } from "../components/HeaderButtons"
+import { Header } from "../components/Header"
 
 export const Ofertas = () => {
   return (
     <div>
-      <HeaderButtons />
+      <Header />
       
     </div>
   )
