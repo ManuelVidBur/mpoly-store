@@ -18,7 +18,7 @@ export const Registro = () => {
             </div>
             <div>
               <input className="campos-botones" type="text" placeholder="RUT" maxLength="9"/>
-              <input className="campos-botones" type="text" placeholder="Número telefónico" />
+              <input className="campos-botones" type="number" placeholder="Número telefónico" />
               <input className="campos-botones" type="text" placeholder="Región" />
             </div>
             <div>
