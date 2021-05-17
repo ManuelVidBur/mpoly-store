@@ -1,11 +1,17 @@
 import { Header } from "../components/Header.js";
 import { CarritoCompra } from "../components/CarritoCompra.js";
+import { Soporte } from "../components/Soporte.js";
 
 export const Carrito = () => {
   return (
-    <div>
-      <Header />
-      <CarritoCompra />
-    </div>
+    <>
+      <section>
+        <Header />
+      </section>
+      <section>
+        <CarritoCompra />
+        <Soporte />
+      </section>
+      </>  
   )
 }

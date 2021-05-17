@@ -1,28 +1,26 @@
-import { Soporte } from "./Soporte"
+import { Button } from "./Button"
+import { CarritoItem } from "./CarritoItem"
 
-export const CarritoCompra = () => {
+export const CarritoCompra = (
+  {
+    foto = "https://res.cloudinary.com/repro/image/upload/v1620964880/shirt_nqxqme.png"
+
+  }
+) => {
   return (
-    <div className="border">
+    <div>
       <section className="container-titulo-carrito container-flex-center">
         <h2 className="title"> Carrito de Compras </h2>
       </section>
-
-      <section className="lista-compras-carrito border">
-        <div className="descripciones-compras border">
-
-        </div>
-        <div className="advertencia-y-boton border">
-          <h1 className="advertencia"> Para confirmar pedido, primero debe iniciar sesión. </h1>
-          <input className="boton-confirmar-compra border" type="button" value="Confirmar Compra" />
-        </div>
-      </section>
-
-      <section className="soporte">
-        <Soporte />
-      </section>
-
-
-
+      <CarritoItem />
+      <CarritoItem />
+      <CarritoItem />
+      <div className="advertencia-y-boton container-flex-center">
+        <h1 className=""> Para confirmar pedido, primero debe iniciar sesión. </h1>
+        <Button isButton >
+          Confirmar Compra
+          </Button>
+      </div>
     </div>
 
   )

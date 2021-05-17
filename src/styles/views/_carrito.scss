@@ -9,35 +9,10 @@ body{
   height: 10vh;
 }
 
-.lista-compras-carrito {
-  height: 70vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.descripciones-compras{
-  height: 90%;
-  width: 95%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.advertencia-y-boton{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .boton-confirmar-compra{
   background-color: #A3C3D9;
   border-radius: 47.5px;
   font-size: $font-size-l;
   height: 60px;
   width: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
 }

@@ -1,37 +1,29 @@
 
 export const Button = (
   {
-    ancho="20px",
+    ancho = "20px",
     iconitoButton,
     isButton,
-    texto="Agregar"
+    texto = "Agregar",
+    children
 
   }
 ) => {
 
   return (
     <>
-    {
-      isButton ? 
-        (
-          <button className="botoncito">
-            {texto} 
-          {
-            iconitoButton && 
-            <img src={ iconitoButton } width="20px" alt="carrito" />
-          }
-        </button>
-        ) : (
-          <a href="/" className="botoncito">
-            {texto}
-          {
-            iconitoButton && 
-            <img src={ iconitoButton } width="20px" alt="carrito" />
-          }
-        </a>
-        )
-    }
-  
+      {
+        isButton ?
+          (
+            <button className="botoncito">
+              {children}
+            </button>
+          ) : (
+            <a href="/" className="botoncito">
+              {children}
+            </a>
+          )
+      }
     </>
   )
 }
