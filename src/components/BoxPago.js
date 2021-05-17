@@ -9,7 +9,9 @@ export const BoxPago = ({
     <section className="container-box-pago container-flex-center">
       <h2 className="titulo-box">{titulo}</h2>
       <Imagen ancho="225" alto="225" fuente={imagenCentral} estilo="my-4" />
-      <Button />
+      <Button>
+        <p>Seleccionar</p>
+      </Button>
     </section>
   )
 }
