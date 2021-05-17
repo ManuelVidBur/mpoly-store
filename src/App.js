@@ -1,15 +1,21 @@
 // import { PantallaIngresoCliente } from './views/PantallaIngresoCliente.js'
 // import { Registro } from './views/Registro.js';
+import "./styles/main.scss";
+// import { DetalleProducto } from "./views/DetalleProducto";
+import './styles/main.scss'
+import { PantallaMetodoPago } from "./views/PantallaMetodoPago";
 // import { Tipo } from './views/Tipo'
 import './styles/main.scss'
-import { Carrito } from './views/Carrito.js'
+// import { Carrito } from './views/Carrito.js'
 
 export const App = () => {
   return (
     <div>
       {/* <PantallaIngresoCliente /> */}
       {/* <Registro /> */}
+      {/* <DetalleProducto /> */}
       {/* <Tipo /> */}
-      <Carrito />    </div>
+      <PantallaMetodoPago />
+    </div>
   );
 };
