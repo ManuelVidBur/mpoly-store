@@ -10,7 +10,9 @@ export const InicioSesion = () => {
         <Avatar width="150" height="150" />
         <input className="campos-botones" type="text" placeholder="Correo" />
         <input className="campos-botones" type="password" placeholder="Contraseña " />
-        <Button />
+        <Button isButton >
+          Aceptar
+          </Button>
       </section>
       <section>
         <Soporte />
