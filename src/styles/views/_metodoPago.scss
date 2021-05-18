@@ -1,0 +1,82 @@
+.sub-titulo-metodo-pago {
+  font-size: $font-size-xl;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 20vw;
+  height: 20vh;
+}
+
+.img-container-metodo-pago {  
+  width: 50vw;
+  height: 50vh
+  
+}
+
+.img-container-web-pay {
+  width: 50vw;
+  height: 50vh;
+}
+
+.dos-section-metodo-pago {
+  display: flex;
+}
+
+
+.section-metodo-pago-soporte {
+  margin-top: 40  px;
+  height: 15vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.soporte {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.soporte-text1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.soporte-text2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.metodo-pago-text1 {
+  margin-top: 35px;
+  height: 5vh;
+  font-size: $font-size-xl;
+  display: flex;
+  justify-content: center;
+}
+
+
+.soporte-text-efectivo {
+  margin-right: 685px;
+  margin-top: 34px;
+  height: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.soporte-text-webpay{
+  margin-top: -20px;
+  margin-left: 685px;
+  height: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-box {
+  font-size: $font-size-m;
+  font-family: Arial, Helvetica, sans-serif;
+}

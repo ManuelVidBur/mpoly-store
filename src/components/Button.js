@@ -1,13 +1,25 @@
 
-export const Button = (props) => {
+export const Button = (
+  {
+    isButton,
+    children
+  }
+) => {
 
   return (
-    <a href="/" className="botoncito">
-      Agregar
+    <>
       {
-        props.iconitoButton && 
-        <img src={ props.iconitoButton } width="20px" alt="carrito" />
+        isButton ?
+          (
+            <button className="botoncito">
+              {children}
+            </button>
+          ) : (
+            <a href="/" className="botoncito">
+              {children}
+            </a>
+          )
       }
-    </a>
+    </>
   )
 }
