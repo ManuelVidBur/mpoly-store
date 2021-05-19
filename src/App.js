@@ -2,7 +2,9 @@
 // import { Registro } from './views/Registro.js';
 // import { Tipo } from './views/Tipo'
 import './styles/main.scss'
-import { InicioSesion } from './views/InicioSesion'
+import { PantallaRetiroLocal } from './views/PantallaRetiroLocal'
+// import { PantallaMetodoPago } from './views/PantallaMetodoPago'
+// import { InicioSesion } from './views/InicioSesion'
 
 export const App = () => {
   return (
@@ -10,7 +12,9 @@ export const App = () => {
       {/* <PantallaIngresoCliente /> */}
       {/* <Registro /> */}
       {/* <Tipo /> */}
-      <InicioSesion />
+      {/* <InicioSesion /> */}
+      {/* <PantallaMetodoPago /> */}
+      <PantallaRetiroLocal />
     </div>
   );
 };
